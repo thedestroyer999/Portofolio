@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV Saya</title>
+
+  <!-- Gaya Utama -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Orbitron -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <!-- Musik Background -->
+  <audio autoplay loop>
+    <source src="assets/Animal Crossing New Horizons  - Main Theme Song.mp3" type="audio/mp3" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div id="navbar"></div>
+
+  <main id="app-view"></main>
+
+  <div id="footer"></div>
+
+  <!-- Script Data dan View -->
+  <script src="js/data.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/footer.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/views/profile.js"></script>
+  <script src="js/views/projects.js"></script>
+  <script src="js/views/skills.js"></script>
+  <script src="js/views/contact.js"></script>
+
+  <!-- AOS Init -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
